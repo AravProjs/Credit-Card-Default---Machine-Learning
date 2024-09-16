@@ -99,3 +99,4 @@ The dataset used is the **Default of Credit Card Clients Dataset**, which contai
 All models tested are valid options for this dataset, but the **Histogram Gradient Boosting Classifier (HistGB)** stands out as the overall winner.
 
 ### Further Improvements
+I could've maybe did a bit more to the imputation, changing it to average or even removing examples since it's a large dataset. I could've also changed the evaluation metric to f-1 or recall for better catching defaulting users. 
