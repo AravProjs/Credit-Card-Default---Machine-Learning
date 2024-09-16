@@ -30,14 +30,14 @@ The dataset used is the **Default of Credit Card Clients Dataset**, which contai
 
 ### Project Structure
 
-- [**Data Splitting**](#data-splitting): The dataset is split into a training set (70%) and a test set (30%) with a `random_state` of 76.
-- [**Exploratory Data Analysis (EDA)**](#exploratory-data-analysis-eda): Initial analysis to understand data distribution and feature importance.
-- [**Preprocessing and Transformations**](#preprocessing-and-transformations): Includes scaling, one-hot encoding, and handling missing values.
-- [**Baseline Model**](#baseline-model): Initial performance is evaluated using a baseline model (Dummy Classifier).
-- [**Model Training**](#model-training): Multiple models were trained, including logistic regression, decision trees, random forests, and histograms gradient boosting.
-- [**Hyperparameter Tuning**](#hyperparameter-tuning): Optimization of model hyperparameters using grid search and randomized search.
-- [**Final Evaluation**](#final-evaluation): The best model was evaluated on the test set to assess its generalization performance.
-
+### Project Structure
+- **Data Splitting**: The dataset is split into a training set (70%) and a test set (30%) with a `random_state` of 76.
+- **Exploratory Data Analysis (EDA)**: Initial analysis to understand data distribution and feature importance.
+- **Preprocessing and Transformations**: Includes scaling, one-hot encoding, and handling missing values.
+- **Baseline Model**: Initial performance is evaluated using a baseline model (Dummy Classifier).
+- **Model Training**: Multiple models were trained, including logistic regression, decision trees, random forests, and histograms gradient boosting.
+- **Hyperparameter Tuning**: Optimization of model hyperparameters using grid search and randomized search.
+- **Final Evaluation**: The best model was evaluated on the test set to assess its generalization performance.
 ### Results
 - The **Histogram Gradient Boosting Classifier** emerged as the best-performing model, achieving an accuracy of **0.824** on the test set.
 - Other models like Decision Trees and Random Forests also showed good performance but with some overfitting issues.
