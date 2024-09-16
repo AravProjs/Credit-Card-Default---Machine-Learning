@@ -1,6 +1,6 @@
-# CPSC 330 - Applied Machine Learning
+# Applied Machine Learning
 
-## Homework 5: Putting it all together
+## Default of Credit Card Clients - ML
 
 ### Overview
 This project is part of the CPSC 330 course, where we apply machine learning techniques to solve real-world problems. The focus of this project is on predicting whether a credit card client will default on their payment next month using various machine learning models. The analysis utilizes the "Default of Credit Card Clients Dataset" from [Kaggle](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset), which contains 30,000 examples and 24 features, including demographic information, credit data, and payment history.
