@@ -2,25 +2,14 @@
 
 ## Default of Credit Card Clients - ML
 
-### Table of Contents
-- [Overview](#overview)
-- [Objectives](#objectives)
-- [Data](#data)
-- [Project Structure](#project-structure)
-  - [Data Splitting](#data-splitting)
-  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-  - [Preprocessing and Transformations](#preprocessing-and-transformations)
-  - [Baseline Model](#baseline-model)
-  - [Model Training](#model-training)
-  - [Hyperparameter Tuning](#hyperparameter-tuning)
-  - [Final Evaluation](#final-evaluation)
-- [Results](#results)
-- [Key Insights](#key-insights)
-- [Future Work](#future-work)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
+### Project Structure
+- **Data Splitting**: The dataset is split into a training set (70%) and a test set (30%) with a `random_state` of 76.
+- **Exploratory Data Analysis (EDA)**: Initial analysis to understand data distribution and feature importance.
+- **Preprocessing and Transformations**: Includes scaling, one-hot encoding, and handling missing values.
+- **Baseline Model**: Initial performance is evaluated using a baseline model (Dummy Classifier).
+- **Model Training**: Multiple models were trained, including logistic regression, decision trees, random forests, and histograms gradient boosting.
+- **Hyperparameter Tuning**: Optimization of model hyperparameters using grid search and randomized search.
+- **Final Evaluation**: The best model was evaluated on the test set to assess its generalization performance.
 
 ### Overview
 This project is part of the CPSC 330 course, where we apply machine learning techniques to solve real-world problems. The focus of this project is on predicting whether a credit card client will default on their payment next month using various machine learning models. The analysis utilizes the "Default of Credit Card Clients Dataset" from [Kaggle](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset), which contains 30,000 examples and 24 features, including demographic information, credit data, and payment history.
